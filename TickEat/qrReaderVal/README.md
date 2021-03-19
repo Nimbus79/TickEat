@@ -1,6 +1,6 @@
 # SENHASREADER 
 
-Senhareader é um pograma em python que valida senhas atravez do reconhecimento de qrcodes de um utilizador da aplicação tickeat.
+Senhasreader is a program that validates meal tickets through the recognition of QR Codes stored in the app TickEat.
 
 ## Installation
 
@@ -23,25 +23,27 @@ python3 -m pip install virtualenv
 ```bash
 apt-get install libzbar0
 ```
-Se tiveres num ubuntu/resbian
+
+If you're on an ubuntu machine or resbian:
 
 ```bash
 make prepare_dev
 ```
+
 ## Usage
 
-Criar o virtual environment com os packgages necesarios
-id -> é o id da hardware de validação
+Create the virtual environment with the necessary packages.
+id -> Identificator of the validation hardware
 ```bash
 make venv id=XYZ
 ```
 
-Correr o pograma
+Run the program.
 ```bash
 make run
 ```
 
-Remover o virtual environment
+Delete the virtual environment.
 ```bash
 make clean
 ```
