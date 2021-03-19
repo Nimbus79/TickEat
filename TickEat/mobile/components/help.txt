@@ -1,0 +1,3 @@
+<TouchableHighlight >
+ <Text style={{ justifyContent: "center" , onPress={() => this.props.navigation.navigate('newPassword')} }}> Esqueceu-se da sua palavra passe? </Text>
+ </TouchableHighlight>
